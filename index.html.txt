@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>National Diesel Service | Gwalior — Diesel Engine Repair & Service</title>
+  <meta name="description" content="National Diesel Service — trusted diesel engine repair workshop in Gwalior. Injector service, pump repair, common rail system, diagnostics and engine overhaul." />
+  <link rel="canonical" href="https://example.com/" />
+
+  <!-- Open Graph / Twitter -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="National Diesel Service | Gwalior" />
+  <meta property="og:description" content="Trusted diesel engine repair workshop in Gwalior. Injector service, pump repair, diagnostics & engine overhaul." />
+  <meta property="og:url" content="https://example.com/" />
+  <meta property="og:site_name" content="National Diesel Service" />
+  <meta name="twitter:card" content="summary" />
+
+  <!-- Structured data (LocalBusiness) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AutoRepair",
+    "name": "National Diesel Service",
+    "description": "Diesel engine repair workshop in Gwalior — injector service, pump repair, common rail system, diagnostics & engine overhaul.",
+    "telephone": "+918871171460",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Roshni Ghar Rd, near SDM Road, Lalitpur Colony, Lashkar",
+      "addressLocality": "Gwalior",
+      "addressRegion": "Madhya Pradesh",
+      "postalCode": "474009",
+      "addressCountry": "IN"
+    },
+    "openingHours": "Mo-Su 10:00-19:00",
+    "url": "https://example.com/",
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.2183,
+      "longitude": 78.1828
+    }
+  }
+  </script>
+
+  <style>
+    :root{
+      --brand:#0b1c2d;
+      --call:#28a745;
+      --whatsapp:#25d366;
+      --bg:#f5f5f5;
+      --card:#ffffff;
+      --text:#222;
+      --muted:#666;
+      --container-max:1100px;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      background:var(--bg);
+      color:var(--text);
+      line-height:1.5;
+    }
+    .site {
+      max-width:var(--container-max);
+      margin:18px auto;
+      padding:0 16px;
+    }
+    header.app-header{
+      background:var(--brand);
+      color:#fff;
+      padding:20px;
+      border-radius:10px;
+    }
+    .header-inner{
+      display:flex;
+      gap:16px;
+      align-items:center;
+      justify-content:space-between;
+      flex-wrap:wrap;
+    }
+    .brand {
+      display:flex;
+      flex-direction:column;
+      gap:6px;
+    }
+    .brand h1{margin:0;font-size:1.5rem}
+    .brand p{margin:0;font-size:0.95rem;opacity:.95}
+    .actions{
+      display:flex;
+      gap:8px;
+      align-items:center;
+      margin-top:8px;
+    }
+    .btn{
+      text-decoration:none;
+      padding:10px 16px;
+      border-radius:8px;
+      font-weight:600;
+      display:inline-flex;
+      gap:8px;
+      align-items:center;
+      color:#fff;
+    }
+    .btn.call{background:var(--call)}
+    .btn.whatsapp{background:var(--whatsapp)}
+    main{
+      margin-top:16px;
+      display:grid;
+      gap:16px;
+      grid-template-columns: 1fr;
+    }
+    .card{
+      background:var(--card);
+      padding:18px;
+      border-radius:10px;
+      box-shadow:0 1px 2px rgba(10,10,10,0.04);
+    }
+    h2{color:var(--brand);margin-top:0}
+    .services ul{list-style:none;padding:0;margin:0;display:grid;gap:8px}
+    .services li{
+      padding:10px;
+      border-radius:6px;
+      background:#fbfbfb;
+      border:1px solid #efefef;
+    }
+    .contact p{margin:.35rem 0;color:var(--muted)}
+    .map iframe{width:100%;height:320px;border:0;border-radius:8px;display:block}
+    footer.site-footer{
+      text-align:center;
+      margin-top:14px;
+      color:#fff;
+      background:var(--brand);
+      padding:12px;
+      border-radius:8px;
+      font-size:0.95rem;
+    }
+
+    /* Responsive layout */
+    @media(min-width:880px){
+      main{
+        grid-template-columns: 2fr 1fr;
+        align-items:start;
+      }
+      .map{
+        grid-column:1/-1;
+      }
+      .actions{margin-top:0}
+    }
+    @media(prefers-reduced-motion:reduce){
+      *{transition:none!important}
+    }
+  </style>
+</head>
+<body>
+  <div class="site" id="top">
+    <header class="app-header" role="banner" aria-label="National Diesel Service header">
+      <div class="header-inner">
+        <div class="brand">
+          <h1>National Diesel Service</h1>
+          <p>Diesel Engine Repair & Service — Gwalior</p>
+        </div>
+
+        <div class="actions" role="navigation" aria-label="Primary contact actions">
+          <!-- include country code in tel link for consistent behavior -->
+          <a class="btn call" href="tel:+918871171460" aria-label="Call National Diesel Service">
+            <span aria-hidden="true">📞</span> Call
+          </a>
+
+          <!-- noreferrer + noopener for external target if using target="_blank" -->
+          <a class="btn whatsapp" href="https://wa.me/918871171460" aria-label="Chat on WhatsApp">
+            <span aria-hidden="true">💬</span> WhatsApp
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="card about" aria-labelledby="aboutHeading">
+        <h2 id="aboutHeading">About Us</h2>
+        <p>
+          National Diesel Service is a trusted diesel engine repair workshop in Gwalior.
+          We provide reliable diesel engine servicing, injector repair, pump servicing,
+          common rail system service, scanner & diagnostics, and complete engine overhaul
+          handled by experienced technicians.
+        </p>
+      </section>
+
+      <aside class="card services" aria-labelledby="servicesHeading">
+        <h2 id="servicesHeading">Our Services</h2>
+        <ul>
+          <li>Diesel Engine Repair</li>
+          <li>Fuel Injector Service</li>
+          <li>Diesel Pump Repair</li>
+          <li>Common Rail System Service</li>
+          <li>Scanner & Diagnostics</li>
+          <li>Engine Overhaul</li>
+        </ul>
+      </aside>
+
+      <section class="card contact" aria-labelledby="contactHeading">
+        <h2 id="contactHeading">Contact Details</h2>
+        <p><strong>Phone:</strong> <a href="tel:+918871171460">+91 88711 71460</a></p>
+        <p>
+          <strong>Address:</strong><br />
+          Roshni Ghar Rd, near SDM Road,<br />
+          Lalitpur Colony, Lashkar,<br />
+          Gwalior, Madhya Pradesh 474009
+        </p>
+        <p><strong>Opening Time:</strong> 10:00 AM – 7:00 PM</p>
+      </section>
+
+      <section class="card map" aria-labelledby="mapHeading">
+        <h2 id="mapHeading">Location</h2>
+        <!-- lazy loading, accessible title -->
+        <iframe
+          title="National Diesel Service location map in Gwalior"
+          loading="lazy"
+          src="https://www.google.com/maps?q=Roshni%20Ghar%20Rd,%20Lalitpur%20Colony,%20Lashkar,%20Gwalior&output=embed"
+          referrerpolicy="no-referrer-when-downgrade"
+          allowfullscreen>
+        </iframe>
+      </section>
+    </main>
+
+    <footer class="site-footer" role="contentinfo">
+      © 2026 National Diesel Service | All Rights Reserved
+    </footer>
+  </div>
+</body>
+</html>
