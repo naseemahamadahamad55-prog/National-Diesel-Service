@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>National Diesel Service | Gwalior</title>
+
+<style>
+body{
+  margin:0;
+  font-family:Arial, sans-serif;
+  background:#f2f4f7;
+}
+.header{
+  background:linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color:white;
+  text-align:center;
+  padding:35px 15px;
+}
+.header h1{
+  margin:0;
+  font-size:28px;
+}
+.header p{
+  margin:10px 0 20px;
+  opacity:0.9;
+}
+.btns a{
+  display:inline-block;
+  margin:6px;
+  padding:14px 22px;
+  border-radius:30px;
+  color:white;
+  text-decoration:none;
+  font-weight:bold;
+}
+.call{background:#28a745;}
+.whatsapp{background:#25D366;}
+
+.section{
+  background:white;
+  margin:15px;
+  padding:20px;
+  border-radius:14px;
+  box-shadow:0 6px 16px rgba(0,0,0,0.08);
+}
+.section h2{
+  margin-top:0;
+  color:#203a43;
+}
+.service{
+  padding:10px 0;
+  border-bottom:1px solid #eee;
+}
+.service:last-child{border:none;}
+
+.footer{
+  text-align:center;
+  padding:15px;
+  font-size:14px;
+  color:#555;
+}
+</style>
+</head>
+
+<body>
+
+<div class="header">
+  <h1>National Diesel Service</h1>
+  <p>Diesel Engine Repair & Service | Gwalior</p>
+  <div class="btns">
+    <a class="call" href="tel:8871171460">📞 Call Now</a>
+    <a class="whatsapp" href="https://wa.me/918871171460">💬 WhatsApp</a>
+  </div>
+</div>
+
+<div class="section">
+  <h2>About Us</h2>
+  <p>
+    National Diesel Service is a trusted diesel engine repair workshop in Gwalior.
+    We specialize in injector repair, diesel pump service, and complete engine
+    solutions with experienced technicians.
+  </p>
+</div>
+
+<div class="section">
+  <h2>Our Services</h2>
+  <div class="service">🔧 Diesel Engine Repair</div>
+  <div class="service">⚙️ Fuel Injector Service</div>
+  <div class="service">🛠️ Diesel Pump Repair</div>
+  <div class="service">🚘 Common Rail System Service</div>
+  <div class="service">🔩 Engine Overhaul</div>
+</div>
+
+<div class="section">
+  <h2>Address</h2>
+  <p>
+    Roshni Ghar Rd, near SDM Road,<br>
+    Lalitpur Colony, Lashkar,<br>
+    Gwalior, Madhya Pradesh 474009
+  </p>
+</div>
+
+<div class="footer">
+  © 2026 National Diesel Service | Gwalior
+</div>
+
+</body>
+</html>
